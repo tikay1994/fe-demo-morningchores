@@ -1705,6 +1705,7 @@ video {
 .divide-opacity-100 > :not(template) ~ :not(template) {
   --divide-opacity: 1;
 }
+
 .group:hover .group-hover\:block {
   display: block;
 }
@@ -2224,6 +2225,7 @@ video {
   background-color: #3c366b;
   background-color: rgba(60, 54, 107, var(--bg-opacity));
 }
+
 .bg-indigo-1 {
   --bg-opacity: 1;
   background-color: #1877f2;
