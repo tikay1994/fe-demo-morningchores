@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
-
+import { Link } from "react-router-dom";
 ButtonMenu.propTypes = {};
 
 function ButtonMenu(props) {
   return (
-    <div className="relative border-2 max-w-xs">
+    <div className="relative border-2 max-w-xs h-full bg-white">
       <div className="absolute right-0">
         <button>
           <svg class="h-6 w-6 m-3" viewBox="0 0 20 20">
@@ -54,15 +54,15 @@ function ButtonMenu(props) {
           </li>
         </div>
       </ul>
-      <ul className="p-3">Homestead</ul>
-      <ul className="p-3">Money</ul>
-      <ul className="p-3">Home Ideas</ul>
-      <ul className="p-3">DIY</ul>
-      <ul className="p-3">Raising Chickens</ul>
-      <ul className="p-3">Food and Drinks</ul>
-      <ul className="p-3">Product</ul>
-      <ul className="p-3">Write for Us</ul>
-      <ul className="p-3">About Us</ul>
+      <ul className="p-3 hover:text-teal-500">Homestead</ul>
+      <ul className="p-3 hover:text-teal-500">Money</ul>
+      <ul className="p-3 hover:text-teal-500">Home Ideas</ul>
+      <ul className="p-3 hover:text-teal-500">DIY</ul>
+      <ul className="p-3 hover:text-teal-500">Raising Chickens</ul>
+      <ul className="p-3 hover:text-teal-500">Food and Drinks</ul>
+      <ul className="p-3 hover:text-teal-500">Product</ul>
+      <ul className="p-3 hover:text-teal-500">Write for Us</ul>
+      <ul className="p-3 hover:text-teal-500">About Us</ul>
     </div>
   );
 }
