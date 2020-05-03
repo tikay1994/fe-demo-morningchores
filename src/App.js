@@ -9,21 +9,19 @@ import Footer from "./components/footer";
 function App() {
   return (
     <Router>
-      <div>
-        <Menu />
-        <Switch>
-          <Route path="/page3">
-            <Page3 />
-          </Route>
-          <Route path="/page2">
-            <Page2 />
-          </Route>
-          <Route path="/">
-            <Page1 />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
+      <Menu />
+      <Switch>
+        <Route path="/page3">
+          <Page3 />
+        </Route>
+        <Route path="/page2">
+          <Page2 />
+        </Route>
+        <Route path="/">
+          <Page1 />
+        </Route>
+      </Switch>
+      <Footer />
     </Router>
   );
 }

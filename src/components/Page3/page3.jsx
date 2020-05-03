@@ -5,7 +5,7 @@ Page3.propTypes = {};
 
 function Page3(props) {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3">
+    <div className="grid grid-cols-1 lg:grid-cols-3 mt-5">
       <div className="fixed md:flex md:flex-col md:my-40 my-10 mx-10 bottom-0 left-0 flex ">
         <button className="border-2 rounded-full h-10 w-10 mt-5 mr-5">
           <svg class="h-5 w-5 ml-2" viewBox="0 0 32 32">

@@ -5,7 +5,7 @@ page2.propTypes = {};
 
 function page2(props) {
   return (
-    <div className=" mx-20">
+    <div className=" mx-20 my-5">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div>
           <a href="#">
