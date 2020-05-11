@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-Comp4.propTypes = {};
+Footer.propTypes = {};
 
-function Comp4(props) {
+function Footer(props) {
   return (
     <div className="bg-teal-800 text-center text-white">
       <div className="p-6">
@@ -42,4 +42,4 @@ function Comp4(props) {
   );
 }
 
-export default Comp4;
+export default Footer;

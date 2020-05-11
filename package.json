@@ -14,8 +14,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "build:css": "postcss src/style/tailwind.css -o src/style/tailwind.css",
-    "watch:css": "postcss src/style/tailwind.css -o src/style/tailwind.css",
+    "build:css": "postcss src/style/index.css -o src/style/tailwind.css",
+    "watch:css": "postcss src/style/index.css -o src/style/tailwind.css",
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",

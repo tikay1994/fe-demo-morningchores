@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import logo from "./windmill.svg";
 import { Link } from "react-router-dom";
+import "../style/menu.css";
 Menu.propTypes = {};
 
 function Menu(props) {
@@ -20,7 +21,7 @@ function Menu(props) {
 
   return (
     <div>
-      <nav class="flex items-center justify-between flex-wrap mx-20 py-6 border-b-2">
+      <nav class="flex items-center justify-between flex-wrap mx-5 sm:mx-24 py-6 border-b-2">
         <div class="flex items-center flex-no-shrink text-white mr-6">
           <button onClick={handleClickMenu} onKeyDown={handleCancleMenu}>
             <svg class="h-6 w-6" viewBox="0 0 24 24">
@@ -52,31 +53,31 @@ function Menu(props) {
               <ul className="mt-1 group hover:text-teal-500">
                 <Link to="/page2">Gardening</Link>
                 <div className="absolute bg-white">
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">How to start a Garden</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">Planting zone map</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">First and Last Frost Dates</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Planting Celender</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">Garden Size Calculator</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">Plant Growing Guides</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">Fertilizer Calculator</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">C/N Compost Calculator</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black hover:text-teal-500 p-3">
                     <Link to="/page3">Gardening Basics</Link>
                   </li>
                 </div>
@@ -86,13 +87,13 @@ function Menu(props) {
               <ul className="mt-1 group hover:text-teal-500">
                 <Link to="/page2">Animals</Link>
                 <div className="absolute bg-white">
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Chicken</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Beekeeping</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Goats</Link>
                   </li>
                 </div>
@@ -105,19 +106,19 @@ function Menu(props) {
               <ul className="group hover:text-teal-500 mt-1 ">
                 <Link to="/page2">More</Link>
                 <div className="absolute bg-white">
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Frugal Living</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Food and Drinks</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Home Decor</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Survival and Prepping</Link>
                   </li>
-                  <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+                  <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                     <Link to="/page3">Handmade</Link>
                   </li>
                 </div>
@@ -190,16 +191,16 @@ function Menu(props) {
           <ul className="group hover:text-teal-500 mt-1 p-3">
             Gardening
             <div className="block bg-white">
-              <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+              <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                 Planting Zone Map
               </li>
-              <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+              <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                 Frost Dates
               </li>
-              <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+              <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                 Planting Calendar
               </li>
-              <li className="hidden group-hover:block text-black  hover:text-teal-500 p-3">
+              <li className="hidden group-hover text-black  hover:text-teal-500 p-3">
                 Plant Growing Guides
               </li>
             </div>

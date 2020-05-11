@@ -5,7 +5,7 @@ Comp2.propTypes = {};
 
 function Comp2(props) {
   return (
-    <div className="bg-teal-800 text-center m-20">
+    <div className="bg-teal-800 text-center m-5 sm:m-24">
       <div className="text-white p-6">
         <p className="text-xl">NEVER MISS AN UPDATE</p>
         <h3 className="text-4xl">Subscribe to the Morning Newsletter</h3>
