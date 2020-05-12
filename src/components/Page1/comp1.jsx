@@ -32,14 +32,14 @@ function Comp1(props) {
       <div className="lg:mr-6">
         <Link to="/page3">
           <img src="https://morningchores.com/wp-content/uploads/2020/04/Why-You-Should-Prevent-Your-Chickens-from-Getting-Bored-and-How-FI.jpg"></img>
-          <p className="md:text-4xl text-2xl hover:text-indigo-500">
+          <p className="md:text-4xl text-2xl hover:text-indigo-500 font-medium">
             Why You Should Prevent Your Chickens from Getting Bored and How
           </p>
         </Link>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
         {newPosts.map((newPost, index) => (
-          <div className="md:px-3 lg:pl-3 lg:pr-0">
+          <div className="md:px-3 lg:pl-3 lg:pr-0 font-medium">
             <Link to="/page3">
               <img src={newPost.img}></img>
               <p className="text-2xl md:text-4xl lg:text-xl hover:text-indigo-500">

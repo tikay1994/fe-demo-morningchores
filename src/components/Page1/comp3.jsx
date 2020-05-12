@@ -27,11 +27,14 @@ function Comp3(props) {
   return (
     <div className="mx-5 sm:mx-24">
       <div>
-        <a href="#" className="text-4xl">
+        <a
+          href="#"
+          className="text-4xl text-teal-800 hover:text-black font-bold hover:bg-teal-200 duration-300 rounded"
+        >
           Gardening
         </a>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 text-center font-medium">
         {postList.map((post, index) => (
           <div className="md:mx-2 ">
             <Link to="/page3">
@@ -44,7 +47,7 @@ function Comp3(props) {
         ))}
       </div>
       <div className="text-center">
-        <button className="bg-indigo-500 p-4 hover:bg-teal-800 text-4xl m-20 text-white rounded">
+        <button className="bg-indigo-500 p-4 hover:bg-teal-800 text-4xl m-20 text-white rounded duration-300">
           View more
         </button>
       </div>
